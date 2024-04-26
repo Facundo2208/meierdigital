@@ -100,10 +100,7 @@ h6 {
   }
 }
 
-#key{
-  background-color:rgb(226, 3, 255);
-  color:white;
-}
+
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -174,6 +171,18 @@ h6 {
   background-color: white;
 }
 
+#key{
+  background-color:rgb(226, 3, 255);
+  color:white;
+  
+}
+@media screen and (max-width: 768px) {
+  #key{
+    background-color:rgb(226, 3, 255);
+    color:white;
+    margin-top: 20%;
+   }
+}
 
 @media (max-width: 992px) {
   #header {
